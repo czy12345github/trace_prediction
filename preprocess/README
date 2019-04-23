@@ -1,0 +1,11 @@
+dataset: GeoLife GPS Trajectories(https://www.microsoft.com/en-us/download/details.aspx?id=52367)
+
+1. process1.py: extract traces from original data
+
+2. process2.py: process sojourn time, make sure each sojourn time is between min_sojourn and max_sojourn
+
+3. process3.py: use 1,2,... represents the small cells
+
+4. process4.py: extract train traces and test traces
+
+5. process5.py: get onehot trainset and testset for trace prediction
